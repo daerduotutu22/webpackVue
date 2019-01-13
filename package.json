@@ -1,0 +1,37 @@
+{
+  "name": "jianshu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack",
+    "server": "webpack-dev-server --open",
+    "dev": "webpack-dev-server --env development"
+  },
+  "author": "xf",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.5",
+    "babel-preset-env": "^1.7.0",
+    "file-loader": "^3.0.1",
+    "iview-loader": "^1.2.2",
+    "style-loader": "^0.23.1",
+    "url-loader": "^1.1.2",
+    "webpack": "^4.28.1",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "dependencies": {
+    "css-loader": "^2.1.0",
+    "iview": "^3.2.1",
+    "save": "^2.3.3",
+    "vue": "^2.5.21",
+    "vue-loader": "^15.5.1",
+    "vue-router": "^3.0.2",
+    "vue-template-compiler": "^2.5.21",
+    "vuex": "^3.0.1"
+  }
+}
